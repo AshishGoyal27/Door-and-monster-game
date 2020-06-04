@@ -30,10 +30,11 @@ def monster():
 print('Halloween Game')
 
 print('Avoid the monster!')
-monsterDoor = random.randint(1, 3)
+
 print('Three doors ahead...')
 def game():
     doors()
+    monsterDoor = random.randint(1, 3)
     print('Is the Monster behind door..')
     userDoor = int(input ('1,2, or 3?'))
     if userDoor ==  monsterDoor:
